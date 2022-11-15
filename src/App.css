@@ -5,13 +5,31 @@
   height: 100vh;
   flex-direction: column;
   text-align: center;
-  background-color: #5FB49CB7;
+  background-color: #caf0f8
 }
 
-.App > h1 {
-  font-size: 3.5rem; 
-  color: #DEEFB7;
+.glow {
+  font-size: 80px;
+  color: #90e0ef;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1.2s ease-in-out infinite alternate;
+  animation: glow 1.2s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #5e60ce, 0 0 20px #5e60ce, 0 0 30px #ff70a6, 0 0 40px #ff70a6, 0 0 50px #ff70a6, 0 0 60px #ff70a6, 0 0 70px #ff70a6;
+  }
+  to {
+    text-shadow: 0 0 20px #5e60ce, 0 0 30px #06d6a0, 0 0 40px #06d6a0, 0 0 50px #06d6a0, 0 0 60px #06d6a0, 0 0 70px #06d6a0, 0 0 80px #ff4da6;
+  }
+}
+
+/* .App > h1 {
+  font-size: 3.5rem; 
+  color: #0077b6;
+} */
 
 .input__div {
   display: flex;
@@ -19,6 +37,7 @@
 }
 
 .input {
+  background-color: #00b4d8;
   width: 400px;
   padding-bottom: 15px;
   margin-bottom: 10px;
@@ -26,4 +45,12 @@
 
 .submit__button {
   padding: 10px;
+  background-color: #0077b6;
+}
+
+.tableHeader {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color: #03045e;
+  text-shadow: 0 0 10px #00b4d8;
 }

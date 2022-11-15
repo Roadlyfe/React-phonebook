@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Phone Book App</h1>
+      <h1 className='glow'>Phone Book App</h1>
       <EntryForm addEntryToPhoneBook={addEntryToPhoneBook} />
       <DisplayEntries entries={entries} />
     </div>
@@ -51,9 +51,9 @@ function DisplayEntries({ entries }) {
     <table>
       <thead>
         <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Phone Number</th>
+          <th className='tableHeader'>First Name</th>
+          <th className='tableHeader'>Last Name</th>
+          <th className='tableHeader'>Phone Number</th>
         </tr>
       </thead>
       <tbody>
