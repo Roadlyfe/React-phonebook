@@ -59,9 +59,9 @@ function DisplayEntries({ entries }) {
       <tbody>
         {entries.map((entry) => (
           <tr>
-            <td>{entry.firstName}</td>
-            <td>{entry.lastName}</td>
-            <td>{entry.phoneNumber}</td>
+            <td className='td'>{entry.firstName}</td>
+            <td className='td'>{entry.lastName}</td>
+            <td className='td'>{entry.phoneNumber}</td>
           </tr>
         ))}
       </tbody>

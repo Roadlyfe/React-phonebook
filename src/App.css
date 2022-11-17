@@ -19,7 +19,7 @@
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #5e60ce, 0 0 20px #5e60ce, 0 0 30px #ff70a6, 0 0 40px #ff70a6, 0 0 50px #ff70a6, 0 0 60px #ff70a6, 0 0 70px #ff70a6;
+    text-shadow: 0 0 10px #5e60ce, 0 0 20px #5e60ce, 0 0 30px #0077b6, 0 0 40px #0077b6, 0 0 50px #0077b6, 0 0 60px #0077b6, 0 0 70px #0077b6;
   }
   to {
     text-shadow: 0 0 20px #5e60ce, 0 0 30px #06d6a0, 0 0 40px #06d6a0, 0 0 50px #06d6a0, 0 0 60px #06d6a0, 0 0 70px #06d6a0, 0 0 80px #ff4da6;
@@ -52,5 +52,10 @@
   font-size: 1.5rem;
   padding-top: 20px;
   color: #03045e;
-  text-shadow: 0 0 10px #00b4d8;
+  text-shadow: 0 0 10px #06d6a0;
+}
+
+.td {
+  border-bottom: 1px solid #0077b6;
+
 }
