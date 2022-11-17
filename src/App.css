@@ -26,11 +26,6 @@
   }
 }
 
-/* .App > h1 {
-  font-size: 3.5rem; 
-  color: #0077b6;
-} */
-
 .input__div {
   display: flex;
   flex-direction: column;
