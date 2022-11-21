@@ -27,7 +27,7 @@ function EntryForm({addEntryToPhoneBook}) {
     e.preventDefault();
     addEntryToPhoneBook({ firstName, lastName, phoneNumber })
 
-    //reset imput fields to empty string
+    //reset input fields to empty string
     setFirstName('');
     setLastName('');
     setPhoneNumber('');
