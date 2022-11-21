@@ -26,6 +26,11 @@ function EntryForm({addEntryToPhoneBook}) {
   const handleSubmit = (e) => {
     e.preventDefault();
     addEntryToPhoneBook({ firstName, lastName, phoneNumber })
+
+    //reset imput fields to empty string
+    setFirstName('');
+    setLastName('');
+    setPhoneNumber('');
   }
 
   return (
